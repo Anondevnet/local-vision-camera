@@ -1,0 +1,12 @@
+# Core
+numpy>=1.24
+opencv-python>=4.8
+flask>=3.0
+
+# Object detection (optional; the pipeline accepts an injected YOLO model)
+# torch and ultralytics are needed only if you load yolov8n.pt yourself.
+# torch>=2.0
+# ultralytics>=8.0
+
+# Microphone capture (optional; used by the audio pipeline)
+# pyaudio>=0.2.14

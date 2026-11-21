@@ -1,0 +1,66 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Databases and local data dumps
+*.db
+*.db-*
+*.db.*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+
+# Logs, caches, OS, editors
+logs/
+*.log
+.DS_Store
+.idea/
+.vscode/
+.firecrawl/
+.opencode/
+
+# Models, archives, oversized artifacts
+*.pt
+*.onnx
+*.weights
+*.tar.gz
+*.tgz
+*.zip
+*.whl
+
+# Media outputs
+*.mp4
+*.mov
+*.webm
+*.mkv
+*.avi
+*.wav
+*.mp3
+*.m4a
+
+# Local event store, face images, and prerecorded clips
+data/*
+!data/.gitkeep
+data/events/*
+!data/events/.gitkeep
+data/faces/*
+!data/faces/.gitkeep
+data/prerecorded/*
+!data/prerecorded/.gitkeep
+arlo_camera/data/
